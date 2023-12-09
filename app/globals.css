@@ -3,25 +3,34 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 96, 71, 61;
+  --background-start-rgb: 96, 71, 61;
+  --background-end-rgb: #f9cb9c;
 }
 
-@media (prefers-color-scheme: dark) {
+@media{
   :root {
-    --foreground-rgb: 200, 200, 200;
-    --background-start-rgb: 96, 71, 61;
-    --background-end-rgb: 0,0,0;
+    --foreground-rgb: #f9cb9c;
+    --background-start-rgb: #f9cb9c;
+    --background-end-rgb: #f9cb9c;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #f9cb9c;
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      #b4644ac0
     )
-    rgb(var(--background-start-rgb));
+    rgb(255, 255, 255);
+}
+
+.ant-card-head {
+  background: #f9cb9c;
+  color: #f9cb9c;
+}
+.ant-card-body {
+  background: #f9cb9c;
+  color: #f9cb9c;
 }
