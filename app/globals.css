@@ -17,20 +17,11 @@
 }
 
 body {
-  color: #f9cb9c;
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      #b4644ac0
-    )
-    rgb(255, 255, 255);
+  color: #eb6e39;
 }
 
-.ant-card-head {
-  background: #f9cb9c;
-  color: #f9cb9c;
-}
 .ant-card-body {
   background: #f9cb9c;
   color: #f9cb9c;
+  border-radius: 3%;
 }
